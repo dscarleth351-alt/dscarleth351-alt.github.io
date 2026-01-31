@@ -458,3 +458,44 @@ section.activo{
     transform:translateY(0);
   }
 }
+/* ===== AJUSTE INICIO PARA CELULAR ===== */
+@media (max-width:768px){
+
+  #inicio.activo{
+    height:auto;               /* ya no fuerza 100vh */
+    padding:90px 15px 40px;    /* espacio correcto */
+  }
+
+  .hero-content{
+    padding:25px;
+    border-radius:20px;
+  }
+
+  .hero h1{
+    font-size:30px;            /* título más pequeño */
+    letter-spacing:2px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .btn-catalogo{
+    padding:14px 30px;
+    font-size:16px;
+  }
+
+  .destacadas{
+    gap:15px;
+  }
+
+  .fruit-card{
+    width:130px;
+    padding:15px;
+  }
+
+  .fruit-card img{
+    width:90px;
+    height:90px;
+  }
+}
